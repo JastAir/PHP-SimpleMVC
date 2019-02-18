@@ -1,0 +1,28 @@
+{
+  "name": "CakeMake/cake-PHP Simple Core",
+  "description": "CMS for PHP Simple Core",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Neikovich Sergey",
+      "email": "s_neiko@outlook.com"
+    }
+  ],
+  "require": {
+    "twig/twig": "~2.0",
+    "tracy/tracy": "v2.5.1",
+    "filp/whoops": "2.2.0",
+    "ommu/php-excel-reader": "1.0.1",
+    "guzzlehttp/guzzle": "6.3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "App\\": "App/"
+    }
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.3"
+  }
+}
